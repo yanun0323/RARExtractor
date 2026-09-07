@@ -10,7 +10,7 @@
 
 RAR ファイルを展開する、軽量な macOS ネイティブアプリです。ファイルを選び、必要に応じてパスワードを入力するだけで、元のアーカイブと同じ場所に展開先フォルダが作成されます。
 
-> 現在は動作するプロトタイプです。ダウンロード版は [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases) で公開予定です。リリースやアプリの添付ファイルがない場合は、まだダウンロードできません。Developer ID による署名と公証も未完了です。
+> Developer ID による署名と Apple の公証を完了したアプリを [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases) からダウンロードできます。
 
 ## 機能
 
@@ -53,7 +53,7 @@ Xcode やビルドツールは不要です。署名と公証の状況はリリ�
 
 ## アップデート
 
-Sparkle による自動更新チェックと `Check for Updates…` メニューを組み込んでいます。更新フィードと署名用公開鍵が未設定のビルドでは無効です。標準の開発ビルドでメニューが使えないのは正常な動作です。
+Sparkle による自動更新チェックと `Check for Updates…` メニューを組み込んでいます。更新フィードと署名用公開鍵が未設定のビルドでは無効です。1.0.0 には更新設定が含まれています。
 
 設定済みのビルドでは、標準で自動チェックを行い、更新のインストール前に確認します。自動更新が利用できない場合は、[GitHub Releases](https://github.com/yanun0323/RARExtractor/releases) から新版をダウンロードし、RARExtractor を終了してから「アプリケーション」内のアプリを置き換えてください。GitHub Release の公開だけでは Sparkle の更新は有効になりません。
 
@@ -66,7 +66,7 @@ Sparkle による自動更新チェックと `Check for Updates…` メニュー
 
 ## 開発状況とフィードバック
 
-Universal 2 対応、Developer ID による署名、公証、および互換性・安全性・大容量アーカイブの包括的なテストは未完了です。
+Universal 2 対応、および互換性・安全性・大容量アーカイブの包括的なテストは未完了です。
 
 不具合や機能の要望は [GitHub Issues](https://github.com/yanun0323/RARExtractor/issues) にお寄せください。macOS のバージョン、アプリのバージョン、再現手順を記載してください。個人情報を含むアーカイブやパスワードはアップロードしないでください。
 

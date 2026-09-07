@@ -26,6 +26,10 @@ build: $(BUILD_DIR)/rar-prototype
 app:
 	@xcodebuild -quiet -workspace RARExtractor.xcworkspace -scheme RARExtractor -configuration Debug -derivedDataPath DerivedData build
 
+## release: 建置、簽署、公證並產生 Release ZIP 與 Sparkle appcast（不發布）
+release:
+	@bash scripts/release.sh
+
 ## test: 建立並執行安全邊界測試
 test: $(BUILD_DIR)/path-safety-test
 	@$(BUILD_DIR)/path-safety-test

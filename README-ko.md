@@ -10,7 +10,7 @@
 
 RAR 압축 파일을 풀 수 있는 가벼운 macOS 네이티브 앱입니다. 파일을 선택하고 필요한 경우 암호를 입력하면 원본 압축 파일과 같은 위치에 압축을 푼 폴더가 생성됩니다.
 
-> 현재는 실행 가능한 프로토타입입니다. 다운로드 버전은 [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases)에 게시될 예정입니다. 릴리스나 앱 첨부 파일이 없다면 아직 다운로드할 수 없습니다. Developer ID 서명과 공증도 완료되지 않았습니다.
+> Developer ID 서명과 Apple 공증을 완료한 앱을 [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases)에서 다운로드하세요.
 
 ## 기능
 
@@ -53,7 +53,7 @@ Xcode나 빌드 도구는 필요하지 않습니다. 서명 및 공증 상태는
 
 ## 업데이트
 
-Sparkle을 통한 자동 업데이트 확인과 `Check for Updates…` 메뉴가 통합되어 있습니다. 업데이트 피드와 서명 공개 키가 설정되지 않은 빌드에서는 비활성화됩니다. 기본 개발 빌드에서 메뉴를 사용할 수 없는 것은 정상입니다.
+Sparkle을 통한 자동 업데이트 확인과 `Check for Updates…` 메뉴가 통합되어 있습니다. 업데이트 피드와 서명 공개 키가 설정되지 않은 빌드에서는 비활성화됩니다. 1.0.0에는 업데이트 설정이 포함되어 있습니다.
 
 설정이 완료된 빌드는 기본적으로 업데이트를 자동 확인하고 설치 전에 동의를 구합니다. 자동 업데이트를 사용할 수 없다면 [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases)에서 새 버전을 다운로드하고, RARExtractor를 종료한 후 응용 프로그램 폴더의 앱을 교체하세요. GitHub Release를 게시하는 것만으로 Sparkle 업데이트가 활성화되지는 않습니다.
 
@@ -66,7 +66,7 @@ Sparkle을 통한 자동 업데이트 확인과 `Check for Updates…` 메뉴가
 
 ## 프로젝트 상태 및 피드백
 
-Universal 2 지원, Developer ID 서명, 공증과 포괄적인 호환성·보안·대용량 압축 파일 테스트는 아직 완료되지 않았습니다.
+Universal 2 지원과 포괄적인 호환성·보안·대용량 압축 파일 테스트는 아직 완료되지 않았습니다.
 
 문제나 기능 제안은 [GitHub Issues](https://github.com/yanun0323/RARExtractor/issues)에 등록하세요. macOS 버전, 앱 버전, 재현 단계를 포함해 주세요. 개인 압축 파일이나 암호는 업로드하지 마세요.
 

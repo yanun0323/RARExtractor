@@ -10,7 +10,7 @@
 
 轻巧的 macOS 原生 RAR 解压工具。选择文件、按需输入密码，即可在原压缩包旁找到解压后的文件夹。
 
-> 目前是可运行的原型，下载版本将发布在 [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases)。如果尚未列出版本或应用附件，表示暂未提供下载。目前也尚未完成 Developer ID 签名与公证。
+> 从 [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases) 下载已完成 Developer ID 签名与 Apple 公证的应用。
 
 ## 功能
 
@@ -53,7 +53,7 @@
 
 ## 更新
 
-应用已集成 Sparkle 自动检查更新与 `Check for Updates…` 菜单项。未配置更新源和签名公钥的版本会禁用更新，因此默认开发版本的菜单项不可用是正常情况。
+应用已集成 Sparkle 自动检查更新与 `Check for Updates…` 菜单项。未配置更新源和签名公钥的版本会禁用更新，1.0.0 已包含更新配置。
 
 配置完成的版本默认会自动检查，并在安装更新前询问。如果暂未提供自动更新，请从 [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases) 下载新版，退出 RARExtractor 后替换“应用程序”文件夹中的应用。仅发布 GitHub Release 不会启用 Sparkle 更新。
 
@@ -66,7 +66,7 @@
 
 ## 项目状态与反馈
 
-Universal 2 支持、Developer ID 签名、公证，以及完整的兼容性、安全性和大型压缩包测试尚未完成。
+Universal 2 支持，以及完整的兼容性、安全性和大型压缩包测试尚未完成。
 
 如遇到问题或有功能建议，请到 [GitHub Issues](https://github.com/yanun0323/RARExtractor/issues) 反馈，并附上 macOS 版本、应用版本和复现步骤。请勿上传私人压缩包或密码。
 

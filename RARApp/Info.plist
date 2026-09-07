@@ -30,13 +30,13 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.1.0</string>
+    <string>1.0.0</string>
     <key>CFBundleVersion</key>
     <string>1</string>
     <key>SUFeedURL</key>
-    <string>$(SPARKLE_FEED_URL)</string>
+    <string>https://github.com/yanun0323/RARExtractor/releases/latest/download/appcast.xml</string>
     <key>SUPublicEDKey</key>
-    <string>$(SPARKLE_PUBLIC_ED_KEY)</string>
+    <string>Fj9Iblp12dxC4RRijqxOIhUBm3KwU/T5rWvj4Zxq8sU=</string>
     <key>SUEnableAutomaticChecks</key>
     <true/>
     <key>SUAutomaticallyUpdate</key>

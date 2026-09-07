@@ -10,7 +10,7 @@
 
 A lightweight, native macOS app for extracting RAR archives. Choose a file, enter a password if needed, and find the extracted folder beside the original archive.
 
-> This project is a working prototype. Downloads are published on [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases). If no release or app attachment is listed, a downloadable version is not yet available. Developer ID signing and notarization are not complete.
+> Download the Developer ID–signed and Apple-notarized app from [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases).
 
 ## Features
 
@@ -53,7 +53,7 @@ In the Traditional Chinese interface, this action is named `解壓縮 RAR`. It a
 
 ## Updates
 
-Sparkle is integrated for automatic update checks and the **Check for Updates…** menu item. It is disabled in builds without a configured update feed and signing public key; a disabled menu item is expected in the default development build.
+Sparkle is integrated for automatic update checks and the **Check for Updates…** menu item. It is disabled in builds without a configured update feed and signing public key; version 1.0.0 includes the update configuration.
 
 Configured builds check automatically by default and ask before installing updates. If automatic updates are unavailable, download the newer app from [GitHub Releases](https://github.com/yanun0323/RARExtractor/releases), quit RARExtractor, and replace the app in Applications. A GitHub release alone does not enable Sparkle updates.
 
@@ -66,7 +66,7 @@ Configured builds check automatically by default and ask before installing updat
 
 ## Project status and feedback
 
-Universal 2 support, Developer ID signing, notarization, and comprehensive compatibility, security, and large-archive testing are not complete.
+Universal 2 support and comprehensive compatibility, security, and large-archive testing are not complete.
 
 Report problems or request features through [GitHub Issues](https://github.com/yanun0323/RARExtractor/issues). Include your macOS version, app version, and steps to reproduce. Do not upload private archives or passwords.
 

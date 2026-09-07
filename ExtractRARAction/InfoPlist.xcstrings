@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Extract RAR" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "解壓縮 RAR" } }
+      }
+    },
+    "NSExtensionServiceFinderPreviewLabel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Extract RAR" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "解壓縮 RAR" } }
+      }
+    },
+    "UTTypeDescription" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "RAR Archive" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "RAR 壓縮檔" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

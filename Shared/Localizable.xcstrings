@@ -1,0 +1,162 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "action.chooseAnother" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose Another RAR…" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "選擇其他 RAR…" } }
+      }
+    },
+    "action.close" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Close" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "關閉" } }
+      }
+    },
+    "action.extract" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Extract" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "解壓縮" } }
+      }
+    },
+    "command.checkForUpdates" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Check for Updates…" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "檢查更新…" } }
+      }
+    },
+    "command.openRAR" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open RAR…" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "開啟 RAR…" } }
+      }
+    },
+    "error.access" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unable to access the RAR archive." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法存取 RAR 壓縮檔。" } }
+      }
+    },
+    "error.badArchive" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The RAR archive is damaged or unsupported." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "RAR 壓縮檔已損壞，或 app 不支援此檔案。" } }
+      }
+    },
+    "error.badPassword" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The password is incorrect." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "密碼不正確。" } }
+      }
+    },
+    "error.cancelled" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Extraction was canceled." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "解壓縮已取消。" } }
+      }
+    },
+    "error.finderOutput" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unable to return the extracted files to Finder." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法將解壓縮檔案傳回 Finder。" } }
+      }
+    },
+    "error.generic" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unable to extract the RAR archive." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法解壓縮 RAR 壓縮檔。" } }
+      }
+    },
+    "error.missingVolume" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "A RAR volume is missing." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "缺少 RAR 分割檔案。" } }
+      }
+    },
+    "error.noFinderInput" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Finder did not provide a RAR archive." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "Finder 未提供 RAR 壓縮檔。" } }
+      }
+    },
+    "error.notRAR" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Select a file with the .rar extension." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "請選擇副檔名為 .rar 的檔案。" } }
+      }
+    },
+    "error.openFailed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unable to open the RAR archive." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法開啟 RAR 壓縮檔。" } }
+      }
+    },
+    "error.passwordRequired" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enter the archive password." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "請輸入壓縮檔密碼。" } }
+      }
+    },
+    "error.resourceLimit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The RAR archive is too large to extract safely." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "RAR 壓縮檔過大，無法安全解壓縮。" } }
+      }
+    },
+    "error.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unable to Extract" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法解壓縮" } }
+      }
+    },
+    "error.unsafeEntry" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The RAR archive contains an unsafe item." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "RAR 壓縮檔包含不安全的項目。" } }
+      }
+    },
+    "error.workerConnection" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The extraction service stopped." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "解壓縮服務已停止。" } }
+      }
+    },
+    "error.workerData" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unable to read the archive information." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法讀取壓縮檔資訊。" } }
+      }
+    },
+    "error.writeFailed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unable to write next to the RAR archive." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "無法在 RAR 壓縮檔旁寫入檔案。" } }
+      }
+    },
+    "password.accessibilityLabel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Password" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "密碼" } }
+      }
+    },
+    "password.incorrect" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Incorrect password" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "密碼不正確" } }
+      }
+    },
+    "password.placeholder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Password" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "密碼" } }
+      }
+    },
+    "progress.accessibilityLabel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Extraction progress" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "解壓縮進度" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

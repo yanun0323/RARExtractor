@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_TW</string>
+    <key>CFBundleDisplayName</key>
+    <string>Extract RAR</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>XPC!</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionAttributes</key>
+        <dict>
+            <key>NSExtensionActivationRule</key>
+            <string>extensionItems.@count == 1 AND SUBQUERY (
+    extensionItems,
+    $extensionItem,
+    $extensionItem.attachments.@count == 1 AND SUBQUERY (
+        $extensionItem.attachments,
+        $attachment,
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;com.rarlab.rar-archive&quot;
+    ).@count == 1
+).@count == 1</string>
+            <key>NSExtensionServiceAllowsFinderPreviewItem</key>
+            <true/>
+            <key>NSExtensionServiceFinderPreviewIconName</key>
+            <string>NSActionTemplate</string>
+            <key>NSExtensionServiceFinderPreviewLabel</key>
+            <string>Extract RAR</string>
+            <key>NSExtensionServiceRoleType</key>
+            <string>NSExtensionServiceRoleTypeEditor</string>
+        </dict>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.ui-services</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>$(PRODUCT_MODULE_NAME).ActionViewController</string>
+    </dict>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+                <string>public.content</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>RAR 壓縮檔</string>
+            <key>UTTypeIdentifier</key>
+            <string>com.rarlab.rar-archive</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array><string>rar</string></array>
+                <key>public.mime-type</key>
+                <string>application/vnd.rar</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleTypeName" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "RAR Archive" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "RAR 壓縮檔" } }
+      }
+    },
+    "NSHumanReadableCopyright" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Includes RARLAB UnRAR. See the license notice." } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "包含 RARLAB UnRAR。請參閱授權公告。" } }
+      }
+    },
+    "UTTypeDescription" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "RAR Archive" } },
+        "zh-Hant" : { "stringUnit" : { "state" : "translated", "value" : "RAR 壓縮檔" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

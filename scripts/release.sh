@@ -20,6 +20,10 @@ xcodebuild -workspace RARExtractor.xcworkspace -scheme RARExtractor \
     CODE_SIGN_IDENTITY="$IDENTITY" DEVELOPMENT_TEAM="$TEAM" \
     CODE_SIGN_INJECT_BASE_ENTITLEMENTS=NO OTHER_CODE_SIGN_FLAGS=--timestamp build
 
+# Fail before signing/publishing if the distributed license notices are missing.
+cmp THIRD_PARTY_NOTICES.txt "$APP/Contents/Resources/THIRD_PARTY_NOTICES.txt"
+python3 scripts/check-notices.py
+
 # Sign nested Sparkle code inside-out; do not use codesign --deep for signing.
 SPARKLE="$APP/Contents/Frameworks/Sparkle.framework"
 for component in \

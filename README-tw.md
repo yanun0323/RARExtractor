@@ -72,6 +72,8 @@ Universal 2 支援，以及完整的相容性、安全與大型壓縮檔測試�
 
 ## 第三方軟體
 
+完整的[第三方授權公告](THIRD_PARTY_NOTICES.txt)包含 Sparkle、UnRAR、Intel BSD 與 BLAKE2 聲明，並隨 App 存放於 `RARExtractor.app/Contents/Resources/THIRD_PARTY_NOTICES.txt`。各授權僅適用於對應元件；專案自有程式碼尚未另行選定授權。UnRAR 並非 MIT 授權，且禁止用來開發 RAR 相容的壓縮建立工具或重建 RAR 壓縮演算法。
+
 解壓縮使用 RARLAB 官方 UnRAR 原始碼，詳見 [UnRAR 授權](Vendor/UnRAR/license.txt)。更新使用 [Sparkle](https://github.com/sparkle-project/Sparkle)。
 
 UnRAR 原始碼：https://www.rarlab.com/rar/unrarsrc-7.2.7.tar.gz

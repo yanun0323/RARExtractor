@@ -2,7 +2,8 @@
 
 ## 已設定
 
-- 版本：`1.0.0`，build `1`，macOS 14+，Apple silicon。
+- 目前版本：`1.0.1`，build `2`，macOS 14+，Apple silicon。
+- 以下發布步驟以首版 `1.0.0` 示範；後續發布須換成對應版本與 tag。
 - Developer ID：`Developer ID Application: Yanun Yang (Y366CJ66L6)`。
 - 公證 Keychain profile：`RARExtractor-notary`。
 - Sparkle Keychain account：`app.rarextractor`。私鑰只保存在本機 Keychain。
@@ -15,7 +16,7 @@
 make release
 ```
 
-流程包含安全邊界測試、Release 建置、移除自動注入的偵錯權限、由內而外簽署 Sparkle 元件、公證、staple、Gatekeeper 驗證、ZIP 封裝、Ed25519 簽章與 SHA-256。任一步失敗就停止；已存在同名 ZIP 時拒絕覆寫。這個指令不會發布至 GitHub。
+流程包含安全邊界測試、Release 建置、移除自動注入的偵錯權限、由內而外簽署 Sparkle 元件、公證、staple、Gatekeeper 驗證、ZIP 封裝、Ed25519 簽章與 SHA-256。任一步失敗就停止；已存在同名 ZIP 時拒絕覆寫。這個指令不會發布至 GitHub。簽署前會比對 App 內的 `THIRD_PARTY_NOTICES.txt`，並執行 `scripts/check-notices.py` 檢查公告是否包含目前依賴的完整授權；更新依賴時也須同步公告。
 
 可透過環境變數覆寫 `SIGNING_IDENTITY`、`DEVELOPMENT_TEAM`、`NOTARY_PROFILE`、`SPARKLE_ACCOUNT`。切換 Sparkle account 時，須確認其公鑰與 App 設定一致。
 
@@ -36,6 +37,6 @@ make release
 
 ## 後續版本與金鑰
 
-同步遞增三個 `Info.plist` 的 `CFBundleShortVersionString`，且 `CFBundleVersion` 必須大於 `1`。保留相同 Sparkle 金鑰，並以新的 `v版本` Release 發布。此流程只產生完整 ZIP 更新，不產生 delta。
+同步遞增三個 `Info.plist` 的 `CFBundleShortVersionString`，且 `CFBundleVersion` 必須大於目前已發布的 build（目前為 `2`）。保留相同 Sparkle 金鑰，並以新的 `v版本` Release 發布。此流程只產生完整 ZIP 更新，不產生 delta。
 
 使用 Sparkle 官方 `generate_keys --account app.rarextractor -x` 可將私鑰備份至專案外的安全位置；請自行在本機操作，使用加密儲存，勿將私鑰提交 Git 或貼到對話中。失去私鑰會影響既有安裝的更新驗證。

@@ -72,6 +72,8 @@ Report problems or request features through [GitHub Issues](https://github.com/y
 
 ## Third-party software
 
+Full [third-party notices](THIRD_PARTY_NOTICES.txt), including Sparkle, UnRAR, Intel BSD, and BLAKE2 notices, are bundled in `RARExtractor.app/Contents/Resources/THIRD_PARTY_NOTICES.txt`. These licenses apply to their respective components; the project's own code does not yet have a separately selected license. UnRAR is not MIT-licensed and restricts developing RAR-compatible archivers or recreating RAR compression.
+
 Extraction uses RARLAB’s official UnRAR source. See the [UnRAR license](Vendor/UnRAR/license.txt). Updates use [Sparkle](https://github.com/sparkle-project/Sparkle).
 
 UnRAR source: https://www.rarlab.com/rar/unrarsrc-7.2.7.tar.gz

@@ -72,7 +72,7 @@ Universal 2 対応、および互換性・安全性・大容量アーカイブ�
 
 ## サードパーティ製ソフトウェア
 
-Sparkle、UnRAR、Intel BSD、BLAKE2 を含む[サードパーティのライセンス通知全文](THIRD_PARTY_NOTICES.txt)を `RARExtractor.app/Contents/Resources/THIRD_PARTY_NOTICES.txt` に同梱しています。各ライセンスは該当するコンポーネントに適用されます。プロジェクト独自のコードのライセンスは未選定です。UnRAR は MIT ライセンスではなく、RAR 互換の圧縮作成ツールの開発や RAR 圧縮アルゴリズムの再現への利用を禁止しています。
+Sparkle、UnRAR、Intel BSD、BLAKE2 を含む[サードパーティのライセンス通知全文](THIRD_PARTY_NOTICES.txt)を `RARExtractor.app/Contents/Resources/THIRD_PARTY_NOTICES.txt` に同梱しています。各ライセンスは該当するコンポーネントに適用されます。プロジェクト独自のコードとドキュメントには [MIT ライセンス](LICENSE)が適用されます。UnRAR は MIT ライセンスではなく、RAR 互換の圧縮作成ツールの開発や RAR 圧縮アルゴリズムの再現への利用を禁止しています。
 
 展開には RARLAB 公式の UnRAR ソースを使用しています。[UnRAR ライセンス](Vendor/UnRAR/license.txt)をご覧ください。更新には [Sparkle](https://github.com/sparkle-project/Sparkle) を使用しています。
 

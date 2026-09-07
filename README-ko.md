@@ -72,7 +72,7 @@ Universal 2 지원과 포괄적인 호환성·보안·대용량 압축 파일 �
 
 ## 타사 소프트웨어
 
-Sparkle, UnRAR, Intel BSD, BLAKE2를 포함한 [타사 라이선스 고지 전문](THIRD_PARTY_NOTICES.txt)은 `RARExtractor.app/Contents/Resources/THIRD_PARTY_NOTICES.txt`에 포함되어 있습니다. 각 라이선스는 해당 구성 요소에 적용되며, 프로젝트 자체 코드의 라이선스는 아직 선택되지 않았습니다. UnRAR는 MIT 라이선스가 아니며 RAR 호환 압축 생성 도구 개발이나 RAR 압축 알고리즘 재현에 사용하는 것을 금지합니다.
+Sparkle, UnRAR, Intel BSD, BLAKE2를 포함한 [타사 라이선스 고지 전문](THIRD_PARTY_NOTICES.txt)은 `RARExtractor.app/Contents/Resources/THIRD_PARTY_NOTICES.txt`에 포함되어 있습니다. 각 라이선스는 해당 구성 요소에 적용되며, 프로젝트 자체 코드와 문서에는 [MIT 라이선스](LICENSE)가 적용됩니다. UnRAR는 MIT 라이선스가 아니며 RAR 호환 압축 생성 도구 개발이나 RAR 압축 알고리즘 재현에 사용하는 것을 금지합니다.
 
 압축 해제에는 RARLAB 공식 UnRAR 소스를 사용합니다. [UnRAR 라이선스](Vendor/UnRAR/license.txt)를 확인하세요. 업데이트에는 [Sparkle](https://github.com/sparkle-project/Sparkle)을 사용합니다.
 

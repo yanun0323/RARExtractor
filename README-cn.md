@@ -72,7 +72,7 @@ Universal 2 支持，以及完整的兼容性、安全性和大型压缩包测�
 
 ## 第三方软件
 
-完整的[第三方许可声明](THIRD_PARTY_NOTICES.txt)包含 Sparkle、UnRAR、Intel BSD 和 BLAKE2 声明，随应用存放在 `RARExtractor.app/Contents/Resources/THIRD_PARTY_NOTICES.txt`。各许可证仅适用于对应组件；项目自有代码尚未另行选定许可证。UnRAR 并非 MIT 许可，且禁止用于开发 RAR 兼容的压缩创建工具或重建 RAR 压缩算法。
+完整的[第三方许可声明](THIRD_PARTY_NOTICES.txt)包含 Sparkle、UnRAR、Intel BSD 和 BLAKE2 声明，随应用存放在 `RARExtractor.app/Contents/Resources/THIRD_PARTY_NOTICES.txt`。各许可证仅适用于对应组件；项目自有代码与文档采用 [MIT 许可证](LICENSE)。UnRAR 并非 MIT 许可，且禁止用于开发 RAR 兼容的压缩创建工具或重建 RAR 压缩算法。
 
 解压使用 RARLAB 官方 UnRAR 源代码，详见 [UnRAR 许可证](Vendor/UnRAR/license.txt)。更新使用 [Sparkle](https://github.com/sparkle-project/Sparkle)。
 
